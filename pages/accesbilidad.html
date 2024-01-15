@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author content="">
+    <link href=" ../css/accesibilidad.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <title>Todos Viajamos</title>
+</head>
+
+<body>
+
+  <!--   esta es la seccion del navegador  -->
+  <section id="inicio">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="../images/Captura de pantalla 2023-08-04 193257.png" title="logo" alt="imagen" width="250">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" title="Hogar" href="../html/index.html">Hogar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" title="sobrenosotros" href="../pages/sobrenosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" title="ubicacion" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Ubicacion
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" title="ubicacion" href="../pages/ubicacionColonia.html">Colonia Del
+                    Sacramento</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="../pages/uibicacionBsAs.html">Buenos aires</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown" aria-current="page" title="accesibilidad" href="../pages/accesbilidad.html">Accesibilidad
+                de los
+                Destinos</a>
+          </ul>
+        </div>
+        <form class="d-flex" role="search">
+          <input class="form-control me-3" type="search" title="Barra de buscar" placeholder="Buscar..." aria-label="Search">
+          <button type="button" class="btn btn-primary" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+  </section>
+
+    <!--   Esta sección es migaja de pan  -->
+    <section class="migajas"><label>
+      <nav
+        style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+        aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../html/index.html">Hogar</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Accesibilidad de los destinos</li>
+        </ol>
+      </nav>
+    </section></label>
+
+  <!-- Esta seccion explicativa de como utilizar el acordeon para una usabilidad mas adecuada  -->
+  <section id="seccionExplicacion">
+    <article><label>
+      <div class="container-fluid">
+        <h5>Queremos asegurarnos de que encuentres lo que buscas. <br> Para facilitar tu busqueda puedes usar la barra
+          de búsqueda o encuentra tu atractivo de interés aquí abajo.</h5>
+      </div>
+    </article></label>
+  </section>
+
+
+  <!-- Aquí comienza la sección de acordeón  -->
+  <section class="espaciado">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Accesibilidad de nuestros ‎ ‎<strong>destinos aéreos</strong>.
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Obten más información sobre el Calafate haciendo click en este enlace <strong><a href="#elCalafate">El
+                Calafate</a></strong>
+            <hr>
+            Si te interesa conocer más sobre la accesibilidad de Mendoza has click en el siguiente enlace <strong><a
+                href="#mendoza">Mendoza</a> </strong>
+            <hr>
+            El Chalten tiene para ofrecer atractivos increíbles, click aquí <strong><a href="#elChalten">El
+                Chalten</a></strong> para conocer porqué conocerlo está al alcance de todos.
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accesibilidad de nuestros ‎ ‎ <strong>destinos terrestres</strong>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Obten más información sobre Misiones haciendo click en este enlace <strong><a
+                href="#misiones">Misiones</a></strong>
+            <hr>
+            Si te interesa conocer más sobre la accesibilidad de San Juan has click en el siguiente enlace <strong><a
+                href="#sanJuan">San Juan</a> </strong>
+            <hr>
+            Neuquen tiene para ofrecer paisajes increíbles, click aquí <strong><a href="#neuquen">Neuquen</a></strong>
+            para conocer porqué conocerlo está al alcance de todos.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accesibilidad de nuestros ‎ ‎ <strong>destinos de escapada</strong>.
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Obten más información sobre este paquete de escapada haciendo click en este enlace <strong><a
+                href="#bsas1">Fin de semana en Bs.As. 2</a></strong>
+            <hr>
+            Si te interesa conocer una parte de Buenos Aires en un fin de semana inolvidable has click en el siguiente
+            enlace <strong><a href="#bsas2">Fin de semana en Bs.As. 1</a> </strong>
+            <hr>
+            Buenos Aires tiene para ofrecer momentos inolvidables en pareja, click aquí <strong><a
+                href="#romantico">Escapada romántica</a></strong>
+            para vivir una experiencia única en una ciudad que entiende del amor.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--     Aquí comienza la tabla de contenido Aereos  -->
+  <section class="espaciado"><label>
+    <!--   Tabla 1   -->
+
+    <div class="container-fluid">
+      <h1>Tabla de accesibilidad para destinos aéreos</h1>
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">
+              <h3 id="elCalafate">El Calafate</h3>
+            </th>
+            <th scope="col">
+              <h4>Hotel/ Restaurantes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos/ Transportes</h4>
+            </th>
+            <th scope="col">
+              <h4>Excursiones</h4>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <h5>Baños</h5>
+            </th>
+            <td>
+              <h6>Barras de seguridad, elementos en altura adecuada, inodoro con barreras abatibles.</h6>
+            </td>
+            <td>
+              <h6>Accesibilidad asegurada, sillas salvaescalera y rampas. Paradas en tiendas accesibles cada 50 minutos.
+              </h6>
+            </td>
+            <td>
+              <h6>Baños accesibles durante el recorrido, personal capacitado para asistir en caso necesario.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Dietas Disponibles</h5>
+            </th>
+            <td>
+              <h6>Menú en braile, dietas sin gluten, personas con diabetes, baja en colesterol, vegetariana y ovo
+                vegetariana disponibles.</h6>
+            </td>
+            <td>
+              <h6>Comidas baja en sodio, agua mineral sin gas a disposición.</h6>
+            </td>
+            <td>
+              <h6>En excurciones no se consumen alimentos con excepción de visitas a bodegas, granjas o casos
+                particulares.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Infraestructura</h5>
+            </th>
+            <td>
+              <h6>Infraestructura inclusiva, puertas y pasillos amplios y señalizados, piso antideslizante, plazas de
+                aparcamiento próximos a la entrada</h6>
+            </td>
+            <td>
+              <h6>Vehiculos modificados para transporte de pasajeros con discapacidades y elementos de seguridad para
+                asegurar su integridad</h6>
+            </td>
+            <td>
+              <h6>Recorridos aptos para ser circulados, elementos de ayuda para personas con dificultades para caminar,
+                saltar y escalar</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Personal capacitado para atención de personas con discapacidad</h5>
+            </th>
+            <td>
+              <h6>Personal capacitado para asistir en todo momento. Personal médico y de apoyo.
+              </h6>
+            </td>
+            <td>
+              <h6>Personal capacitado para ingreso y egreso de personal a vehículos y aéronaves.</h6>
+            </td>
+            <td>
+              <h6>Nuestros guías cuentan con capacitación para auxiliar, asegurando su integridad física en todo
+                momento.</h6>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <!-- tabla 2     -->
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">
+              <h3 id="mendoza">Mendoza</h3>
+            </th>
+            <th scope="col">
+              <h4>Hotel/ Restaurantes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos/ Transportes</h4>
+            </th>
+            <th scope="col">
+              <h4>Excursiones</h4>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <h5>Baños</h5>
+            </th>
+            <td>
+              <h6>Barras de seguridad, elementos en altura adecuada, inodoro con barreras abatibles.</h6>
+            </td>
+            <td>
+              <h6>Plataforma salvaescalera y rampas. Paradas en tiendas accesibles cada 45 minutos.</h6>
+            </td>
+            <td>
+              <h6>Baños accesibles durante el recorrido, personal capacitado para asistir en caso necesario.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Dietas Disponibles</h5>
+            </th>
+            <td>
+              <h6>Menú en braile, dietas sin gluten, personas con diabetes, baja en colesterol, vegetariana y ovo
+                vegetariana disponibles.</h6>
+            </td>
+            <td>
+              <h6>Comidas baja en sodio, agua mineral sin gas a disposición.</h6>
+            </td>
+            <td>
+              <h6>En excurciones no se consumen alimentos con excepción de visitas a bodegas, granjas o casos
+                particulares.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Infraestructura</h5>
+            </th>
+            <td>
+              <h6>Infraestructura inclusiva, puertas y pasillos amplios y señalizados, piso antideslizante, plazas de
+                aparcamiento próximos a la entrada</h6>
+            </td>
+            <td>
+              <h6>Vehiculos modificados para transporte de pasajeros con discapacidades y elementos de seguridad para
+                asegurar su integridad</h6>
+            </td>
+            <td>
+              <h6>Recorridos aptos para ser circulados, elementos de ayuda para personas con dificultades para caminar,
+                saltar y escalar</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Personal capacitado para atención de personas con discapacidad</h5>
+            </th>
+            <td>
+              <h6>Personal capacitado para asistir en todo momento. Personal médico y de apoyo.
+              </h6>
+            </td>
+            <td>
+              <h6>Personal capacitado para ingreso y egreso de personal a vehículos y aéronaves.</h6>
+            </td>
+            <td>
+              <h6>Nuestros guías cuentan con capacitación para auxiliar, asegurando su integridad física en todo
+                momento.</h6>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--       tabla 3     -->
+
+      <hr>
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">
+              <h3 id="elChalten">El Chalten</h3>
+            </th>
+            <th scope="col">
+              <h4>Hotel/ Restaurantes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos/ Transportes</h4>
+            </th>
+            <th scope="col">
+              <h4>Excursiones</h4>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <h5>Baños</h5>
+            </th>
+            <td>
+              <h6>Barras de seguridad, elementos en altura adecuada, inodoro con barreras abatibles.</h6>
+            </td>
+            <td>
+              <h6>Accesibilidad asegurada, sillas salvaescalera y rampas. Paradas en tiendas accesibles cada 50 minutos.
+              </h6>
+            </td>
+            <td>
+              <h6>Baños accesibles durante el recorrido, personal capacitado para asistir en caso necesario.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Dietas Disponibles</h5>
+            </th>
+            <td>
+              <h6>Menú en braile, dietas sin gluten, personas con diabetes, baja en colesterol, vegetariana y ovo
+                vegetariana disponibles.</h6>
+            </td>
+            <td>
+              <h6>Comidas baja en sodio, agua mineral sin gas a disposición.</h6>
+            </td>
+            <td>
+              <h6>En excurciones no se consumen alimentos con excepción de visitas a bodegas, granjas o casos
+                particulares.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Infraestructura</h5>
+            </th>
+            <td>
+              <h6>Infraestructura inclusiva, puertas y pasillos amplios y señalizados, piso antideslizante, plazas de
+                aparcamiento próximos a la entrada</h6>
+            </td>
+            <td>
+              <h6>Vehiculos modificados para transporte de pasajeros con discapacidades y elementos de seguridad para
+                asegurar su integridad</h6>
+            </td>
+            <td>
+              <h6>Recorridos aptos para ser circulados, elementos de ayuda para personas con dificultades para caminar,
+                saltar y escalar</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Personal capacitado para atención de personas con discapacidad</h5>
+            </th>
+            <td>
+              <h6>Personal capacitado para asistir en todo momento. Personal médico y de apoyo.
+              </h6>
+            </td>
+            <td>
+              <h6>Personal capacitado para ingreso y egreso de personal a vehículos y aéronaves.</h6>
+            </td>
+            <td>
+              <h6>Nuestros guías cuentan con capacitación para auxiliar, asegurando su integridad física en todo
+                momento.</h6>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="link-inicio"><a class="link-offset-2 link-underline link-underline-opacity-100" href="#inicio">Click
+          aquí para volver al inicio</a></p>
+
+  </section></label>
+
+  <!--     Aquí comienza la tabla de contenido Terrestre  -->
+  <section class="espaciado"><label>
+    <!--   Tabla 1   -->
+
+    <div class="container-fluid">
+      <h1>Tabla de accesibilidad para destinos terrestres</h1>
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">
+              <h3 id="misiones">Misiones</h3>
+            </th>
+            <th scope="col">
+              <h4>Hotel/ Restaurantes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos/ Transportes</h4>
+            </th>
+            <th scope="col">
+              <h4>Excursiones</h4>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <h5>Baños</h5>
+            </th>
+            <td>
+              <h6>Barras de seguridad, elementos en altura adecuada, inodoro con barreras abatibles.</h6>
+            </td>
+            <td>
+              <h6>Accesibilidad asegurada, sillas salvaescalera y rampas. Paradas en tiendas accesibles cada 50 minutos.
+              </h6>
+            </td>
+            <td>
+              <h6>Baños accesibles durante el recorrido, personal capacitado para asistir en caso necesario.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Dietas Disponibles</h5>
+            </th>
+            <td>
+              <h6>Menú en braile, dietas sin gluten, personas con diabetes, baja en colesterol, vegetariana y ovo
+                vegetariana disponibles.</h6>
+            </td>
+            <td>
+              <h6>Comidas baja en sodio, agua mineral sin gas a disposición.</h6>
+            </td>
+            <td>
+              <h6>En excurciones no se consumen alimentos con excepción de visitas a bodegas, granjas o casos
+                particulares.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Infraestructura</h5>
+            </th>
+            <td>
+              <h6>Infraestructura inclusiva, puertas y pasillos amplios y señalizados, piso antideslizante, plazas de
+                aparcamiento próximos a la entrada</h6>
+            </td>
+            <td>
+              <h6>Vehiculos modificados para transporte de pasajeros con discapacidades y elementos de seguridad para
+                asegurar su integridad</h6>
+            </td>
+            <td>
+              <h6>Recorridos aptos para ser circulados, elementos de ayuda para personas con dificultades para caminar,
+                saltar y escalar</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Personal capacitado para atención de personas con discapacidad</h5>
+            </th>
+            <td>
+              <h6>Personal capacitado para asistir en todo momento. Personal médico y de apoyo.
+              </h6>
+            </td>
+            <td>
+              <h6>Personal capacitado para ingreso y egreso de personal a vehículos y aéronaves.</h6>
+            </td>
+            <td>
+              <h6>Nuestros guías cuentan con capacitación para auxiliar, asegurando su integridad física en todo
+                momento.</h6>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <!-- tabla 2     -->
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">
+              <h3 id="sanJuan">San Juan</h3>
+            </th>
+            <th scope="col">
+              <h4>Hotel/ Restaurantes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos/ Transportes</h4>
+            </th>
+            <th scope="col">
+              <h4>Excursiones</h4>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <h5>Baños</h5>
+            </th>
+            <td>
+              <h6>Barras de seguridad, elementos en altura adecuada, inodoro con barreras abatibles.</h6>
+            </td>
+            <td>
+              <h6>Accesibilidad asegurada, sillas salvaescalera y rampas. Paradas en tiendas accesibles cada 50 minutos.
+              </h6>
+            </td>
+            <td>
+              <h6>Baños accesibles durante el recorrido, personal capacitado para asistir en caso necesario.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Dietas Disponibles</h5>
+            </th>
+            <td>
+              <h6>Menú en braile, dietas sin gluten, personas con diabetes, baja en colesterol, vegetariana y ovo
+                vegetariana disponibles.</h6>
+            </td>
+            <td>
+              <h6>Comidas baja en sodio, agua mineral sin gas a disposición.</h6>
+            </td>
+            <td>
+              <h6>En excurciones no se consumen alimentos con excepción de visitas a bodegas, granjas o casos
+                particulares.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Infraestructura</h5>
+            </th>
+            <td>
+              <h6>Infraestructura inclusiva, puertas y pasillos amplios y señalizados, piso antideslizante, plazas de
+                aparcamiento próximos a la entrada</h6>
+            </td>
+            <td>
+              <h6>Vehiculos modificados para transporte de pasajeros con discapacidades y elementos de seguridad para
+                asegurar su integridad</h6>
+            </td>
+            <td>
+              <h6>Recorridos aptos para ser circulados, elementos de ayuda para personas con dificultades para caminar,
+                saltar y escalar</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Personal capacitado para atención de personas con discapacidad</h5>
+            </th>
+            <td>
+              <h6>Personal capacitado para asistir en todo momento. Personal médico y de apoyo.
+              </h6>
+            </td>
+            <td>
+              <h6>Personal capacitado para ingreso y egreso de personal a vehículos y aéronaves.</h6>
+            </td>
+            <td>
+              <h6>Nuestros guías cuentan con capacitación para auxiliar, asegurando su integridad física en todo
+                momento.</h6>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--       tabla 3     -->
+
+      <hr>
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">
+              <h3 id="neuquen">Neuquen</h3>
+            </th>
+            <th scope="col">
+              <h4>Hotel/ Restaurantes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos/ Transportes</h4>
+            </th>
+            <th scope="col">
+              <h4>Excursiones</h4>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <h5>Baños</h5>
+            </th>
+            <td>
+              <h6>Barras de seguridad, elementos en altura adecuada, inodoro con barreras abatibles.</h6>
+            </td>
+            <td>
+              <h6>Accesibilidad asegurada, sillas salvaescalera y rampas. Paradas en tiendas accesibles cada 50 minutos.
+              </h6>
+            </td>
+            <td>
+              <h6>Baños accesibles durante el recorrido, personal capacitado para asistir en caso necesario.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Dietas Disponibles</h5>
+            </th>
+            <td>
+              <h6>Menú en braile, dietas sin gluten, personas con diabetes, baja en colesterol, vegetariana y ovo
+                vegetariana disponibles.</h6>
+            </td>
+            <td>
+              <h6>Comidas baja en sodio, agua mineral sin gas a disposición.</h6>
+            </td>
+            <td>
+              <h6>En excurciones no se consumen alimentos con excepción de visitas a bodegas, granjas o casos
+                particulares.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Infraestructura</h5>
+            </th>
+            <td>
+              <h6>Infraestructura inclusiva, puertas y pasillos amplios y señalizados, piso antideslizante, plazas de
+                aparcamiento próximos a la entrada</h6>
+            </td>
+            <td>
+              <h6>Vehiculos modificados para transporte de pasajeros con discapacidades y elementos de seguridad para
+                asegurar su integridad</h6>
+            </td>
+            <td>
+              <h6>Recorridos aptos para ser circulados, elementos de ayuda para personas con dificultades para caminar,
+                saltar y escalar</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Personal capacitado para atención de personas con discapacidad</h5>
+            </th>
+            <td>
+              <h6>Personal capacitado para asistir en todo momento. Personal médico y de apoyo.
+              </h6>
+            </td>
+            <td>
+              <h6>Personal capacitado para ingreso y egreso de personal a vehículos y aéronaves.</h6>
+            </td>
+            <td>
+              <h6>Nuestros guías cuentan con capacitación para auxiliar, asegurando su integridad física en todo
+                momento.</h6>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="link-inicio"><a class="link-offset-2 link-underline link-underline-opacity-100" href="#inicio">Click
+          aquí para volver al inicio</a></p>
+
+  </section></label>
+
+  <!--     Aquí comienza la tabla de contenido Escapadas  -->
+  <section><label>
+    <!--   Tabla 1   -->
+
+    <div class="container-fluid">
+      <h1>Tabla de accesibilidad para sección escapadas</h1>
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">
+              <h3 id="bsas1">Fin de semana en Bs.As. 1</h3>
+            </th>
+            <th scope="col">
+              <h4>Hotel/ Restaurantes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos/ Transportes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos / visitas</h4>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <h5>Baños</h5>
+            </th>
+            <td>
+              <h6>Barras de seguridad, elementos en altura adecuada, inodoro con barreras abatibles.</h6>
+            </td>
+            <td>
+              <h6>Accesibilidad asegurada, sillas salvaescalera y rampas. Paradas en tiendas accesibles cada 50 minutos.
+              </h6>
+            </td>
+            <td>
+              <h6>Baños accesibles durante el recorrido, personal capacitado para asistir en caso necesario.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Dietas Disponibles</h5>
+            </th>
+            <td>
+              <h6>Menú en braile, dietas sin gluten, personas con diabetes, baja en colesterol, vegetariana y ovo
+                vegetariana disponibles.</h6>
+            </td>
+            <td>
+              <h6>Comidas baja en sodio, agua mineral sin gas a disposición.</h6>
+            </td>
+            <td>
+              <h6>En excurciones no se consumen alimentos con excepción de visitas a bodegas, granjas o casos
+                particulares.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Infraestructura</h5>
+            </th>
+            <td>
+              <h6>Infraestructura inclusiva, puertas y pasillos amplios y señalizados, piso antideslizante, plazas de
+                aparcamiento próximos a la entrada</h6>
+            </td>
+            <td>
+              <h6>Vehiculos modificados para transporte de pasajeros con discapacidades y elementos de seguridad para
+                asegurar su integridad</h6>
+            </td>
+            <td>
+              <h6>Recorridos aptos para ser circulados, elementos de ayuda para personas con dificultades para caminar,
+                saltar y escalar</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Personal capacitado para atención de personas con discapacidad</h5>
+            </th>
+            <td>
+              <h6>Personal capacitado para asistir en todo momento. Personal médico y de apoyo.
+              </h6>
+            </td>
+            <td>
+              <h6>Personal capacitado para ingreso y egreso de personal a vehículos y aéronaves.</h6>
+            </td>
+            <td>
+              <h6>Nuestros guías cuentan con capacitación para auxiliar, asegurando su integridad física en todo
+                momento.</h6>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <!-- tabla 2     -->
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">
+              <h3 id="bsas2">Fin de semana en Bs.As. 2</h3>
+            </th>
+            <th scope="col">
+              <h4>Hotel/ Restaurantes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos/ Transportes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos / visitas</h4>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <h5>Baños</h5>
+            </th>
+            <td>
+              <h6>Barras de seguridad, elementos en altura adecuada, inodoro con barreras abatibles.</h6>
+            </td>
+            <td>
+              <h6>Plataforma salvaescalera y rampas. Paradas en tiendas accesibles cada 45 minutos.</h6>
+            </td>
+            <td>
+              <h6>Baños accesibles durante el recorrido, personal capacitado para asistir en caso necesario.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Dietas Disponibles</h5>
+            </th>
+            <td>
+              <h6>Menú en braile, dietas sin gluten, personas con diabetes, baja en colesterol, vegetariana y ovo
+                vegetariana disponibles.</h6>
+            </td>
+            <td>
+              <h6>Comidas baja en sodio, agua mineral sin gas a disposición.</h6>
+            </td>
+            <td>
+              <h6>En excurciones no se consumen alimentos con excepción de visitas a bodegas, granjas o casos
+                particulares.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Infraestructura</h5>
+            </th>
+            <td>
+              <h6>Infraestructura inclusiva, puertas y pasillos amplios y señalizados, piso antideslizante, plazas de
+                aparcamiento próximos a la entrada</h6>
+            </td>
+            <td>
+              <h6>Vehiculos modificados para transporte de pasajeros con discapacidades y elementos de seguridad para
+                asegurar su integridad</h6>
+            </td>
+            <td>
+              <h6>Recorridos aptos para ser circulados, elementos de ayuda para personas con dificultades para caminar,
+                saltar y escalar</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Personal capacitado para atención de personas con discapacidad</h5>
+            </th>
+            <td>
+              <h6>Personal capacitado para asistir en todo momento. Personal médico y de apoyo.
+              </h6>
+            </td>
+            <td>
+              <h6>Personal capacitado para ingreso y egreso de personal a vehículos y aéronaves.</h6>
+            </td>
+            <td>
+              <h6>Nuestros guías cuentan con capacitación para auxiliar, asegurando su integridad física en todo
+                momento.</h6>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--       tabla 3     -->
+
+      <hr>
+      <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">
+              <h3 id="romantico">Escapada Romántica</h3>
+            </th>
+            <th scope="col">
+              <h4>Hotel/ Restaurantes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos/ Transportes</h4>
+            </th>
+            <th scope="col">
+              <h4>Paseos / visitas</h4>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <h5>Baños</h5>
+            </th>
+            <td>
+              <h6>Barras de seguridad, elementos en altura adecuada, inodoro con barreras abatibles.</h6>
+            </td>
+            <td>
+              <h6>Accesibilidad asegurada, sillas salvaescalera y rampas. Paradas en tiendas accesibles cada 50 minutos.
+              </h6>
+            </td>
+            <td>
+              <h6>Baños accesibles durante el recorrido, personal capacitado para asistir en caso necesario.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Dietas Disponibles</h5>
+            </th>
+            <td>
+              <h6>Menú en braile, dietas sin gluten, personas con diabetes, baja en colesterol, vegetariana y ovo
+                vegetariana disponibles.</h6>
+            </td>
+            <td>
+              <h6>Comidas baja en sodio, agua mineral sin gas a disposición.</h6>
+            </td>
+            <td>
+              <h6>En excurciones no se consumen alimentos con excepción de visitas a bodegas, granjas o casos
+                particulares.</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Infraestructura</h5>
+            </th>
+            <td>
+              <h6>Infraestructura inclusiva, puertas y pasillos amplios y señalizados, piso antideslizante, plazas de
+                aparcamiento próximos a la entrada</h6>
+            </td>
+            <td>
+              <h6>Vehiculos modificados para transporte de pasajeros con discapacidades y elementos de seguridad para
+                asegurar su integridad</h6>
+            </td>
+            <td>
+              <h6>Recorridos aptos para ser circulados, elementos de ayuda para personas con dificultades para caminar,
+                saltar y escalar</h6>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <h5>Personal capacitado para atención de personas con discapacidad</h5>
+            </th>
+            <td>
+              <h6>Personal capacitado para asistir en todo momento. Personal médico y de apoyo.
+              </h6>
+            </td>
+            <td>
+              <h6>Personal capacitado para ingreso y egreso de personal a vehículos y aéronaves.</h6>
+            </td>
+            <td>
+              <h6>Nuestros guías cuentan con capacitación para auxiliar, asegurando su integridad física en todo
+                momento.</h6>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- <strong><a href="#seccionExplicacion">Click aquí para volver al inicio</a></strong> -->
+      <p class="link-inicio"><a class="link-offset-2 link-underline link-underline-opacity-100" href="#inicio">Click
+          aquí para volver al inicio</a></p>
+  </section></label>
+
+
+  <!--   Aquí comienza el footer-->
+  <section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-links">
+            <h4>Compañia</h4>
+            <ul>
+              <li><a href="../pages/sobrenosotros.html"> Sobre Nosotros</a></li>
+              <li><a href="../pages/ubicacionColonia.html"> Ubicacion</a></li>
+              <li><a href="../pages/accesbilidad.html"> Acessibilidad de los destinos </a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4 id="contacto">Contáctanos</h4>
+            <ul>
+              <li><a <i class="fas fa-phone-alt" style="color: rgb(255, 255, 255);"></i> 452 232437</a>
+              </li>
+              <li><a <i class="fas fa-mobile-alt" style="color: rgb(255, 255, 255);"></i> 091 300 456</a>
+              </li>
+              <li><a <i class="fas fa-mobile-alt" style="color: rgb(255, 255, 255);"></i> 0303 456 237</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Siguenos</h4>
+            <div class="social-link">
+              <a aria-label="#" target="_blank" href="https://www.facebook.com/groups/169929286362290/"><i
+                  class="fab fa-facebook"></i></a>
+              <a aria-label="#" target="_blank" href="https://www.instagram.com/linktravelco/?hl=es"><i
+                  class="fab fa-instagram"></i></a>
+              <a aria-label="#" target="_blank" href="https://twitter.com/ViajesNG"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <script src="../js/destinosAereos.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
